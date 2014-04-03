@@ -1,0 +1,33 @@
+{
+  "name": "express-dist",
+  "version": "0.1.0",
+  "description": "Static asset serving for express",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/litek/express-dist.git"
+  },
+  "keywords": [
+    "koa",
+    "static",
+    "assets"
+  ],
+  "author": "Ketil Albertsen <ketil@syscom.as>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/litek/express-dist/issues"
+  },
+  "homepage": "https://github.com/litek/express-dist",
+  "devDependencies": {
+    "express": "^4.0.0-rc4",
+    "should": "^3.2.0",
+    "mocha": "^1.18.2",
+    "supertest": "^0.10.0",
+    "gulp": "^3.6.0",
+    "gulp-jshint": "^1.5.3"
+  },
+  "dependencies": {}
+}
